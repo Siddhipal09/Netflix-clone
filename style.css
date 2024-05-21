@@ -175,7 +175,37 @@ section.first > div{
     font-size: 21px;
     font-weight: 200;
 }
-.second{
+.two{
     position: relative;
     top: 70px;
+    z-index: 10;
+}
+.secimg2 img{
+    position: relative;
+    top: 40px;
+   right: 20px;
+
+}
+.three{
+    position: relative;
+    top: 90px;
+    z-index: 10;
+}
+.four{
+    position: relative;
+    top: 10px;
+    z-index: 10;
+}
+.secimg3 img{
+    position: relative;
+    top: 120px;
+   left: 30px;
+   z-index: 10;
+
+}
+.secimg3 video{
+    position: relative;
+    bottom: 320px;
+    left: 20px;
+    height:230px;
 }
