@@ -157,15 +157,15 @@ nav button {
     .first {
         flex-wrap: wrap;
     }
-    .first>div :nth-child(1) {
+    .text1 :nth-child(1) {
         font-family: "Poppins", sans-serif;
         font-size: 48px;
         font-weight: bolder;
         position: relative;
-        top: 52px;
+        top: 45px;
     }
     
-    .first>div :nth-child(2) {
+    .text1 :nth-child(2) {
         font-family: "Poppins", sans-serif;
         font-size: 21px;
         font-weight: 200;
@@ -189,7 +189,7 @@ nav button {
         background-size: 3500px;
     }
 
-    .third>div :nth-child(1) {
+    .text2 :nth-child(1) {
         font-family: "Poppins", sans-serif;
         font-size: 48px;
         font-weight: bolder;
@@ -197,7 +197,7 @@ nav button {
         top: 126px;
     }
 
-    .third>div :nth-child(2) {
+    .text2 :nth-child(2) {
         font-family: "Poppins", sans-serif;
         font-size: 21px;
         font-weight: 200;
@@ -212,11 +212,15 @@ nav button {
         
     }
     .secimg video {
-        position: absolute;
-        top: 120px;
+        display:flex;
+        justify-content: center;
+        position: relative;
+        bottom: 120px;
         right: 60px;
         height: 230px;
     }
+    
+    
     
     
 }
@@ -229,7 +233,7 @@ nav button {
     width: 555px;
     position: relative;
     z-index: 10;
-    top: 36px;
+    top: 52px;
 }
 
 .secimg video {
@@ -244,13 +248,13 @@ section.first>div {
     flex-direction: column;
 }
 
-.first>div :nth-child(1) {
+.text1 :nth-child(1) {
     font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-weight: bolder;
 }
 
-.first>div :nth-child(2) {
+.text1 :nth-child(2) {
     font-family: "Poppins", sans-serif;
     font-size: 21px;
     font-weight: 200;
@@ -337,13 +341,13 @@ section.third>div {
     flex-direction: column;
 }
 
-.third>div :nth-child(1) {
+.text2 :nth-child(1) {
     font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-weight: bolder;
 }
 
-.third>div :nth-child(2) {
+.text2 :nth-child(2) {
     font-family: "Poppins", sans-serif;
     font-size: 21px;
     font-weight: 200;
@@ -449,6 +453,15 @@ footer span {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
 
+}
+@media screen and (max-width: 1355px){
+    .footer {
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+    
+    }
 }
 
 .footer-item {
