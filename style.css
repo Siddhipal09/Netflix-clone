@@ -150,15 +150,15 @@ nav button {
     position: relative;
 }
 .secimg img{
-    width:30vw;
+    width:34vw;
     position: relative;
     z-index: 10;
-    top:30px;
+    top:36px;
 }
 .secimg video{
     position: absolute;
-    top: 51px;
-    right: 0;
+    top: 120px;
+    right: 40px;
     height:230px;
 }
 section.first > div{
@@ -177,12 +177,12 @@ section.first > div{
 }
 .two{
     position: relative;
-    top: 70px;
+    top: 100px;
     z-index: 10;
 }
 .secimg2 img{
     position: relative;
-    top: 40px;
+    top: 60px;
    right: 20px;
 
 }
@@ -193,19 +193,98 @@ section.first > div{
 }
 .four{
     position: relative;
-    top: 10px;
+    top: -21px;
     z-index: 10;
 }
 .secimg3 img{
     position: relative;
-    top: 120px;
+    top: 167px;
    left: 30px;
    z-index: 10;
 
 }
 .secimg3 video{
     position: relative;
-    bottom: 320px;
+    bottom: 271px;
     left: 20px;
     height:230px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color:white ;
+    align-items: center;
+}
+section.second > div{
+    display: flex;
+    flex-direction: column;
+}
+.second > div :nth-child(1){
+    font-family: "Poppins", sans-serif; 
+    font-size: 45px;
+    font-weight: bolder;
+    padding-top: 80px;
+}
+.second > div :nth-child(2){
+    font-family: "Poppins", sans-serif; 
+    font-size: 21px;
+    font-weight: 200;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color:white ;
+    align-items: center;
+}
+section.third > div{
+    display: flex;
+    flex-direction: column;
+}
+.third > div :nth-child(1){
+    font-family: "Poppins", sans-serif; 
+    font-size: 48px;
+    font-weight: bolder;
+}
+.third > div :nth-child(2){
+    font-family: "Poppins", sans-serif; 
+    font-size: 21px;
+    font-weight: 200;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color:white ;
+    align-items: center;
+}
+section.fourth > div{
+    display: flex;
+    flex-direction: column;
+}
+.fourth > div :nth-child(1){
+    font-family: "Poppins", sans-serif; 
+    font-size: 45px;
+    font-weight: bolder;
+    padding-top: 80px;
+}
+.fourth > div :nth-child(2){
+    font-family: "Poppins", sans-serif; 
+    font-size: 21px;
+    font-weight: 200;
+}
+.secimg4 img{
+    position: relative;
+    top: -23px;
+   right: 20px;
+
+}
+.five{
+    position: relative;
+    top: 28px;
+    z-index: 10;
 }
