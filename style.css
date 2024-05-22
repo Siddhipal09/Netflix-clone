@@ -31,12 +31,12 @@ body {
 
 nav {
     display: flex;
-    max-width: 70vw;
+    max-width: 72vw;
     margin: auto;
     justify-content: space-between;
     justify-items: center;
     height: 62px;
-    padding-top: 18px;
+    padding-top: 20px;
 }
 
 nav img {
